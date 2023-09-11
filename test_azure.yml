@@ -8,7 +8,7 @@
   - name: Get details of Azure SQL Database
     azure_rm_sqldatabase_info:
       resource_group: manuresgrp
-      server_name: mssql-demo-manu.database.windows.net
+      server_name: mssql-demo-manu
     register: sqldb_info
 
   - name: Test the teach
